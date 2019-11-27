@@ -1,8 +1,9 @@
 
+
 def square_array(numbers)
-  counter = 0 
-  while counter < numbers.length do
-    puts numbers
-    counter += 1
-  end 
+  count = 0
+  while count < numbers.length do
+    numbers.index ** 2 
+  end
+  square_array(numbers)
 end
